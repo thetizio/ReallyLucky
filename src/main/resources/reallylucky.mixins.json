@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "com.tizio.reallylucky.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+      "FortuneOre",
+      "FortuneUniform",
+      "Looting",
+      "RareLoot"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
